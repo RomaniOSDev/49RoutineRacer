@@ -1,0 +1,6 @@
+framework module Pods_49RoutineRacer {
+  umbrella header "Pods-49RoutineRacer-umbrella.h"
+
+  export *
+  module * { export * }
+}
