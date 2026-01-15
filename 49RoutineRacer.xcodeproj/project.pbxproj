@@ -3,29 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7404262B2F19900900E398D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740426212F19900900E398D9 /* Assets.xcassets */; };
+		7404262D2F19900900E398D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740426252F19900900E398D9 /* LaunchScreen.storyboard */; };
+		7404262E2F19900900E398D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740426272F19900900E398D9 /* Main.storyboard */; };
+		7404262F2F19900900E398D9 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426072F19900900E398D9 /* AppColors.swift */; };
+		740426302F19900900E398D9 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426092F19900900E398D9 /* Achievement.swift */; };
+		740426312F19900900E398D9 /* GameProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404260A2F19900900E398D9 /* GameProgress.swift */; };
+		740426322F19900900E398D9 /* PixelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404260B2F19900900E398D9 /* PixelElement.swift */; };
+		740426332F19900900E398D9 /* RepairType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404260C2F19900900E398D9 /* RepairType.swift */; };
+		740426342F19900900E398D9 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404260D2F19900900E398D9 /* Tool.swift */; };
+		740426352F19900900E398D9 /* ToolStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404260E2F19900900E398D9 /* ToolStatus.swift */; };
+		740426362F19900900E398D9 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426102F19900900E398D9 /* ProgressViewModel.swift */; };
+		740426372F19900900E398D9 /* PuzzleLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426112F19900900E398D9 /* PuzzleLevelViewModel.swift */; };
+		740426382F19900900E398D9 /* WorkshopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426122F19900900E398D9 /* WorkshopViewModel.swift */; };
+		740426392F19900900E398D9 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426142F19900900E398D9 /* CheckLink.swift */; };
+		7404263A2F19900900E398D9 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426152F19900900E398D9 /* InternetViewController.swift */; };
+		7404263B2F19900900E398D9 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426162F19900900E398D9 /* LoaderViewController.swift */; };
+		7404263C2F19900900E398D9 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426182F19900900E398D9 /* AchievementsView.swift */; };
+		7404263D2F19900900E398D9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426192F19900900E398D9 /* OnboardingView.swift */; };
+		7404263E2F19900900E398D9 /* PuzzleLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404261A2F19900900E398D9 /* PuzzleLevelView.swift */; };
+		7404263F2F19900900E398D9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404261B2F19900900E398D9 /* SettingsView.swift */; };
+		740426402F19900900E398D9 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404261C2F19900900E398D9 /* ToolsView.swift */; };
+		740426412F19900900E398D9 /* UtilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404261D2F19900900E398D9 /* UtilityView.swift */; };
+		740426422F19900900E398D9 /* WorkshopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404261E2F19900900E398D9 /* WorkshopView.swift */; };
+		740426432F19900900E398D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426202F19900900E398D9 /* AppDelegate.swift */; };
+		740426442F19900900E398D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426222F19900900E398D9 /* ContentView.swift */; };
+		740426452F19900900E398D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426282F19900900E398D9 /* SceneDelegate.swift */; };
+		740426462F19900900E398D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740426292F19900900E398D9 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		740426072F19900900E398D9 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		740426092F19900900E398D9 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		7404260A2F19900900E398D9 /* GameProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProgress.swift; sourceTree = "<group>"; };
+		7404260B2F19900900E398D9 /* PixelElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelElement.swift; sourceTree = "<group>"; };
+		7404260C2F19900900E398D9 /* RepairType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairType.swift; sourceTree = "<group>"; };
+		7404260D2F19900900E398D9 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		7404260E2F19900900E398D9 /* ToolStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolStatus.swift; sourceTree = "<group>"; };
+		740426102F19900900E398D9 /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
+		740426112F19900900E398D9 /* PuzzleLevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleLevelViewModel.swift; sourceTree = "<group>"; };
+		740426122F19900900E398D9 /* WorkshopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopViewModel.swift; sourceTree = "<group>"; };
+		740426142F19900900E398D9 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		740426152F19900900E398D9 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		740426162F19900900E398D9 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		740426182F19900900E398D9 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		740426192F19900900E398D9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7404261A2F19900900E398D9 /* PuzzleLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleLevelView.swift; sourceTree = "<group>"; };
+		7404261B2F19900900E398D9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7404261C2F19900900E398D9 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		7404261D2F19900900E398D9 /* UtilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityView.swift; sourceTree = "<group>"; };
+		7404261E2F19900900E398D9 /* WorkshopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopView.swift; sourceTree = "<group>"; };
+		740426202F19900900E398D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		740426212F19900900E398D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740426222F19900900E398D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		740426232F19900900E398D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740426242F19900900E398D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		740426262F19900900E398D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740426282F19900900E398D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		740426292F19900900E398D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74960FF82F140D56006AD303 /* 49RoutineRacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 49RoutineRacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5D7F7766D4F55E635253C8 /* Pods_49RoutineRacer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_49RoutineRacer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97AB26F2166D7A5E32FB6F4D /* Pods-49RoutineRacer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-49RoutineRacer.debug.xcconfig"; path = "Target Support Files/Pods-49RoutineRacer/Pods-49RoutineRacer.debug.xcconfig"; sourceTree = "<group>"; };
 		AE90A458247572320465E185 /* Pods-49RoutineRacer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-49RoutineRacer.release.xcconfig"; path = "Target Support Files/Pods-49RoutineRacer/Pods-49RoutineRacer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		749610322F140D9A006AD303 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 74960FF72F140D56006AD303 /* 49RoutineRacer */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7496102A2F140D9A006AD303 /* 49RoutineRacer */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (749610322F140D9A006AD303 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 49RoutineRacer; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		74960FF52F140D56006AD303 /* Frameworks */ = {
@@ -47,10 +91,85 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		740426082F19900900E398D9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				740426072F19900900E398D9 /* AppColors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		7404260F2F19900900E398D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				740426092F19900900E398D9 /* Achievement.swift */,
+				7404260A2F19900900E398D9 /* GameProgress.swift */,
+				7404260B2F19900900E398D9 /* PixelElement.swift */,
+				7404260C2F19900900E398D9 /* RepairType.swift */,
+				7404260D2F19900900E398D9 /* Tool.swift */,
+				7404260E2F19900900E398D9 /* ToolStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		740426132F19900900E398D9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				740426102F19900900E398D9 /* ProgressViewModel.swift */,
+				740426112F19900900E398D9 /* PuzzleLevelViewModel.swift */,
+				740426122F19900900E398D9 /* WorkshopViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		740426172F19900900E398D9 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				740426142F19900900E398D9 /* CheckLink.swift */,
+				740426152F19900900E398D9 /* InternetViewController.swift */,
+				740426162F19900900E398D9 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		7404261F2F19900900E398D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				740426172F19900900E398D9 /* LoadingView */,
+				740426182F19900900E398D9 /* AchievementsView.swift */,
+				740426192F19900900E398D9 /* OnboardingView.swift */,
+				7404261A2F19900900E398D9 /* PuzzleLevelView.swift */,
+				7404261B2F19900900E398D9 /* SettingsView.swift */,
+				7404261C2F19900900E398D9 /* ToolsView.swift */,
+				7404261D2F19900900E398D9 /* UtilityView.swift */,
+				7404261E2F19900900E398D9 /* WorkshopView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7404262A2F19900900E398D9 /* 49RoutineRacer */ = {
+			isa = PBXGroup;
+			children = (
+				740426082F19900900E398D9 /* Constants */,
+				7404260F2F19900900E398D9 /* Models */,
+				740426132F19900900E398D9 /* ViewModels */,
+				7404261F2F19900900E398D9 /* Views */,
+				740426202F19900900E398D9 /* AppDelegate.swift */,
+				740426212F19900900E398D9 /* Assets.xcassets */,
+				740426222F19900900E398D9 /* ContentView.swift */,
+				740426232F19900900E398D9 /* Info.plist */,
+				740426252F19900900E398D9 /* LaunchScreen.storyboard */,
+				740426272F19900900E398D9 /* Main.storyboard */,
+				740426282F19900900E398D9 /* SceneDelegate.swift */,
+				740426292F19900900E398D9 /* ViewController.swift */,
+			);
+			path = 49RoutineRacer;
+			sourceTree = "<group>";
+		};
 		74960FEF2F140D56006AD303 = {
 			isa = PBXGroup;
 			children = (
-				7496102A2F140D9A006AD303 /* 49RoutineRacer */,
+				7404262A2F19900900E398D9 /* 49RoutineRacer */,
 				74960FF92F140D56006AD303 /* Products */,
 				63F339E7DDB86C449FFBB6AA /* Pods */,
 				901644CF11157C81ECD707F6 /* Frameworks */,
@@ -88,9 +207,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7496102A2F140D9A006AD303 /* 49RoutineRacer */,
 			);
 			name = 49RoutineRacer;
 			productName = 49RoutineRacer;
@@ -135,6 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7404262B2F19900900E398D9 /* Assets.xcassets in Resources */,
+				7404262D2F19900900E398D9 /* LaunchScreen.storyboard in Resources */,
+				7404262E2F19900900E398D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +289,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7404262F2F19900900E398D9 /* AppColors.swift in Sources */,
+				740426302F19900900E398D9 /* Achievement.swift in Sources */,
+				740426312F19900900E398D9 /* GameProgress.swift in Sources */,
+				740426322F19900900E398D9 /* PixelElement.swift in Sources */,
+				740426332F19900900E398D9 /* RepairType.swift in Sources */,
+				740426342F19900900E398D9 /* Tool.swift in Sources */,
+				740426352F19900900E398D9 /* ToolStatus.swift in Sources */,
+				740426362F19900900E398D9 /* ProgressViewModel.swift in Sources */,
+				740426372F19900900E398D9 /* PuzzleLevelViewModel.swift in Sources */,
+				740426382F19900900E398D9 /* WorkshopViewModel.swift in Sources */,
+				740426392F19900900E398D9 /* CheckLink.swift in Sources */,
+				7404263A2F19900900E398D9 /* InternetViewController.swift in Sources */,
+				7404263B2F19900900E398D9 /* LoaderViewController.swift in Sources */,
+				7404263C2F19900900E398D9 /* AchievementsView.swift in Sources */,
+				7404263D2F19900900E398D9 /* OnboardingView.swift in Sources */,
+				7404263E2F19900900E398D9 /* PuzzleLevelView.swift in Sources */,
+				7404263F2F19900900E398D9 /* SettingsView.swift in Sources */,
+				740426402F19900900E398D9 /* ToolsView.swift in Sources */,
+				740426412F19900900E398D9 /* UtilityView.swift in Sources */,
+				740426422F19900900E398D9 /* WorkshopView.swift in Sources */,
+				740426432F19900900E398D9 /* AppDelegate.swift in Sources */,
+				740426442F19900900E398D9 /* ContentView.swift in Sources */,
+				740426452F19900900E398D9 /* SceneDelegate.swift in Sources */,
+				740426462F19900900E398D9 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		740426252F19900900E398D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740426242F19900900E398D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		740426272F19900900E398D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740426262F19900900E398D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7496100C2F140D57006AD303 /* Debug */ = {
@@ -186,6 +348,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 49RoutineRacer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "PixeRacer Routine";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,7 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-9RoutineRacer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iir.p1x3r8cr9t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -223,6 +386,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 49RoutineRacer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "PixeRacer Routine";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -234,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-9RoutineRacer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iir.p1x3r8cr9t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
